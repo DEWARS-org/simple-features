@@ -3,33 +3,34 @@
   "packages": {
     "specifiers": {
       "jsr:@dewars/timsort@^1.0.3": "jsr:@dewars/timsort@1.0.3",
-      "jsr:@std/assert@^0.225.3": "jsr:@std/assert@0.225.3",
-      "jsr:@std/data-structures@^0.224.1": "jsr:@std/data-structures@0.224.1",
-      "jsr:@std/expect@^0.224.2": "jsr:@std/expect@0.224.2",
-      "jsr:@std/internal@^1.0.0": "jsr:@std/internal@1.0.0"
+      "jsr:@std/assert@^1.0.1": "jsr:@std/assert@1.0.2",
+      "jsr:@std/assert@^1.0.2": "jsr:@std/assert@1.0.2",
+      "jsr:@std/data-structures@^1.0.1": "jsr:@std/data-structures@1.0.1",
+      "jsr:@std/expect@^1.0.0": "jsr:@std/expect@1.0.0",
+      "jsr:@std/internal@^1.0.1": "jsr:@std/internal@1.0.1"
     },
     "jsr": {
       "@dewars/timsort@1.0.3": {
         "integrity": "aa3b15bca050611c2ba50bb1cd5db6e1de8e96c8033c0df6467c1a32ffe4e4fe"
       },
-      "@std/assert@0.225.3": {
-        "integrity": "b3c2847aecf6955b50644cdb9cf072004ea3d1998dd7579fc0acb99dbb23bd4f",
+      "@std/assert@1.0.2": {
+        "integrity": "ccacec332958126deaceb5c63ff8b4eaf9f5ed0eac9feccf124110435e59e49c",
         "dependencies": [
-          "jsr:@std/internal@^1.0.0"
+          "jsr:@std/internal@^1.0.1"
         ]
       },
-      "@std/data-structures@0.224.1": {
-        "integrity": "266365f90014e5c52bccf1eadd65f7782a2af2c84e4052ef8316698a3572cac3"
+      "@std/data-structures@1.0.1": {
+        "integrity": "e4fa6bcc33839979ac118e2746f349cd7b57c58bd3036b5b82ac608771ee856e"
       },
-      "@std/expect@0.224.2": {
-        "integrity": "789ba764319503b1669b54fad2d279f35fe708247548878c5fb44e0cacc40a8e",
+      "@std/expect@1.0.0": {
+        "integrity": "030275683c23d6708878c5439a3ffd99285948d708e00835fd38fcef9a0bb921",
         "dependencies": [
-          "jsr:@std/assert@^0.225.3",
-          "jsr:@std/internal@^1.0.0"
+          "jsr:@std/assert@^1.0.1",
+          "jsr:@std/internal@^1.0.1"
         ]
       },
-      "@std/internal@1.0.0": {
-        "integrity": "ac6a6dfebf838582c4b4f61a6907374e27e05bedb6ce276e0f1608fe84e7cd9a"
+      "@std/internal@1.0.1": {
+        "integrity": "6f8c7544d06a11dd256c8d6ba54b11ed870aac6c5aeafff499892662c57673e6"
       }
     }
   },
@@ -37,9 +38,9 @@
   "workspace": {
     "dependencies": [
       "jsr:@dewars/timsort@^1.0.3",
-      "jsr:@std/assert@^0.225.3",
-      "jsr:@std/data-structures@^0.224.1",
-      "jsr:@std/expect@^0.224.2"
+      "jsr:@std/assert@^1.0.2",
+      "jsr:@std/data-structures@^1.0.1",
+      "jsr:@std/expect@^1.0.0"
     ]
   }
 }

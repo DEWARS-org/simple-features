@@ -1,26 +1,19 @@
 {
   "name": "@dewars/simple-features",
   "version": "1.0.1",
-  "description": "OGC Simple Features Library",
   "exports": {
     ".": "./mod.ts"
   },
   "imports": {
     "@dewars/timsort": "jsr:@dewars/timsort@^1.0.3",
-    "@std/assert": "jsr:@std/assert@^0.225.3",
-    "@std/data-structures": "jsr:@std/data-structures@^0.224.1",
-    "@std/expect": "jsr:@std/expect@^0.224.2"
+    "@std/assert": "jsr:@std/assert@^1.0.2",
+    "@std/data-structures": "jsr:@std/data-structures@^1.0.1",
+    "@std/expect": "jsr:@std/expect@^1.0.0"
   },
   "publish": {
     "exclude": [
       ".github",
-      ".vscode",
       "tests"
-    ]
-  },
-  "test": {
-    "include": [
-      "test/*.spec.ts"
     ]
   }
 }

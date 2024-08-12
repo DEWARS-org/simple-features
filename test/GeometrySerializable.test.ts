@@ -1,5 +1,3 @@
-import { expect } from "@std/expect";
-import { assert } from "@std/assert";
 import type { Geometry } from "../lib/internal.ts";
 import { GeometrySerializer } from "../lib/internal.ts";
 import {

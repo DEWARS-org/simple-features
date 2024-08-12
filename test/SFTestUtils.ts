@@ -2,7 +2,6 @@ import { expect } from "@std/expect";
 import { assert } from "@std/assert";
 import type {
   CircularString,
-  Curve,
   Geometry,
   GeometryEnvelope,
   PolyhedralSurface,

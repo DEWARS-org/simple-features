@@ -1,6 +1,5 @@
 import type {
   CompoundCurve,
-  Curve,
   CurvePolygon,
   Geometry,
   GeometryCollection,

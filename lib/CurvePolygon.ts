@@ -1,4 +1,5 @@
-import { Curve, LineString, SFException } from "./internal.ts";
+import type { LineString } from "./internal.ts";
+import { Curve, SFException } from "./internal.ts";
 import {
   Geometry,
   GeometryType,
