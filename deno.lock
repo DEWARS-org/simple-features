@@ -5,7 +5,7 @@
       "jsr:@dewars/timsort@^1.0.3": "jsr:@dewars/timsort@1.0.3",
       "jsr:@std/assert@^1.0.1": "jsr:@std/assert@1.0.2",
       "jsr:@std/assert@^1.0.2": "jsr:@std/assert@1.0.2",
-      "jsr:@std/data-structures@^1.0.1": "jsr:@std/data-structures@1.0.1",
+      "jsr:@std/data-structures@^0.224.1": "jsr:@std/data-structures@0.224.1",
       "jsr:@std/expect@^1.0.0": "jsr:@std/expect@1.0.0",
       "jsr:@std/internal@^1.0.1": "jsr:@std/internal@1.0.1"
     },
@@ -19,8 +19,8 @@
           "jsr:@std/internal@^1.0.1"
         ]
       },
-      "@std/data-structures@1.0.1": {
-        "integrity": "e4fa6bcc33839979ac118e2746f349cd7b57c58bd3036b5b82ac608771ee856e"
+      "@std/data-structures@0.224.1": {
+        "integrity": "266365f90014e5c52bccf1eadd65f7782a2af2c84e4052ef8316698a3572cac3"
       },
       "@std/expect@1.0.0": {
         "integrity": "030275683c23d6708878c5439a3ffd99285948d708e00835fd38fcef9a0bb921",
@@ -39,7 +39,7 @@
     "dependencies": [
       "jsr:@dewars/timsort@^1.0.3",
       "jsr:@std/assert@^1.0.2",
-      "jsr:@std/data-structures@^1.0.1",
+      "jsr:@std/data-structures@^0.224.1",
       "jsr:@std/expect@^1.0.0"
     ]
   }
